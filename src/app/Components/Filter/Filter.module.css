@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap");
+
+.Section {
+  margin: 8em 13em;
+  font-family: "Raleway", sans-serif;
+  background-color: white;
+}
+.heading {
+  font-size: 1.4em;
+  font-weight: 500;
+  margin: 15px 0px;
+}
+.FilterSec{
+  display: flex;
+  align-items: center;
+}
+.Filter {
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-left: 0.3em;
+}
+.CategoriesSec {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.59em;
+  row-gap: 0.8em;
+}
+.Btn {
+  color: #62bdff;
+  border-radius: 20px;
+  border: 1px solid #62bdff;
+  padding: 6px 20px;
+  background-color: white;
+}
+.Btn:first-child, .Btn:hover{
+    background-image: linear-gradient(269deg, #0048ff, #0096ff),
+    linear-gradient(#000, #000);
+    color: white;
+}
+.image{
+  height: 1.4em;
+}
+.wrapper{
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 20px;
+}
